@@ -2855,3 +2855,42 @@ CrossfactionBG.enable = 1
 
 #
 ###################################################################################################
+diff --git a/src/server/worldserver/worldserver.conf.dist b/src/server/worldserver/worldserver.conf.dist
+index 9577b3d..a5fc631 100644
+--- a/src/server/worldserver/worldserver.conf.dist
++++ b/src/server/worldserver/worldserver.conf.dist
+@@ -2791,3 +2791,160 @@ Log.Async.Enable = 0
+ 
+ #
+ ###################################################################################################
+
+###################################################################################################
+#    Transmogrification config
+###################################################################################################
+Transmogrification.EnableTransmogInfo = 1
+Transmogrification.TransmogNpcText = 50000
+Transmogrification.EnableSetInfo = 1
+Transmogrification.SetNpcText = 50001
+Transmogrification.Allowed = ""
+Transmogrification.NotAllowed = ""
+Transmogrification.EnableSets = 1
+Transmogrification.MaxSets = 10
+Transmogrification.SetCostModifier = 3.0
+Transmogrification.SetCopperCost = 0
+Transmogrification.ScaledCostModifier = 1.0
+Transmogrification.CopperCost = 0
+Transmogrification.RequireToken = 0
+Transmogrification.TokenEntry = 49426
+Transmogrification.TokenAmount = 1
+Transmogrification.AllowPoor = 0
+Transmogrification.AllowCommon = 0
+Transmogrification.AllowUncommon = 1
+Transmogrification.AllowRare = 1
+Transmogrification.AllowEpic = 1
+Transmogrification.AllowLegendary = 0
+Transmogrification.AllowArtifact = 0
+Transmogrification.AllowHeirloom = 1
+Transmogrification.AllowMixedArmorTypes = 0
+Transmogrification.AllowMixedWeaponTypes = 0
+#
+###################################################################################################
